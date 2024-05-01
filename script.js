@@ -1,10 +1,6 @@
 let display = document.querySelector(".display");
 let btn = document.querySelectorAll(".button");
 console.log(btn);
-
-display.addEventListener('onkeydown',(e)=>{
-    console.log(e);
-})
 btn.forEach((element) => {
     
   element.addEventListener("click", (e) => {
