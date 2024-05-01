@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
     <div class="calculator">
+        <div class="display poppins-bold">
+
+        </div>
+        <form>
+
+            <input type="button" class="button poppins-medium AC" value="AC" onclick="display.value='3'">
+            <input type="button" class="button poppins-medium" value="DE">
+            <input type="button" class="button poppins-medium" value=".">
+            <input type="button" class="button poppins-medium" value="/">
+            <input type="button" class="button poppins-medium" value="7">
+            <input type="button" class="button poppins-medium" value="8">
+            <input type="button" class="button poppins-medium" value="9">
+            <input type="button" class="button poppins-medium" value="+">
+            <input type="button" class="button poppins-medium" value="4">
+            <input type="button" class="button poppins-medium" value="5">
+            <input type="button" class="button poppins-medium" value="6">
+            <input type="button" class="button poppins-medium" value="-">
+            <input type="button" class="button poppins-medium" value="1">
+            <input type="button" class="button poppins-medium" value="2">
+            <input type="button" class="button poppins-medium" value="3">
+            <input type="button" class="button poppins-medium" value="*">
+            <input type="button" class="button poppins-medium" value="00">
+            <input type="button" class="button poppins-medium zero" value="0">
+            <input type="button" class="button poppins-medium modify equal" value="=">
+
+
+        </form>
 
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
